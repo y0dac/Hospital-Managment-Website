@@ -1,0 +1,64 @@
+﻿# ================================
+# Python & Django
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+.env
+.env.local
+.env.*.local
+*.sqlite3
+*.db
+db.sqlite3
+media/
+staticfiles/
+*.log
+local_settings.py
+
+# Django migrations (keep __init__.py)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# ================================
+# Node.js & Frontend
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+*.tsbuildinfo
+dist/
+.build/
+.cache/
+.vite/
+
+# ================================
+# OS & IDE
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# Development
+# ================================
+*.backup
+*.bak
+dump.rdb
+*.pid
+*.seed
+*.pid.lock
