@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+ to detect React JSX and TSX files
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
+
+# 2. Make sure React-related web files are counted
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+
+# 3. Exclude "noise" so your code percentage increases
+# (This ignores the build folder if you accidentally committed it)
+build/* linguist-vendored
+dist/* linguist-vendored
